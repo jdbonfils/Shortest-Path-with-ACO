@@ -1,0 +1,30 @@
+
+#Des matrices de tailles différentes sont données dans le code en commentaires
+#Pour spécifier des paramètres
+
+	python3 main.py -o nomDuFichierImg -s noeudSource -d noeudDestination
+
+	Pour une matrice 4X4 -> noeudSource,noeudDestination [0-3] ou [A,D]
+
+par exemple: python3 -o image.png -s A -d C
+
+#Aide
+
+	python3 main.py --help
+
+	Usage: main.py [options]
+
+	Options:
+	  -h, --help            show this help message and exit
+	  -o FILE, --output=FILE
+		                Fichier png en sortie. Par defaut : graph.png
+	  -s SOURCE, --source=SOURCE
+		                Point de départ pour trouver le plus court chemin
+		                entre 0 et nbnoeuds-1 ou une lettre (a = 0, c = 2....)
+	  -d DEST, --dest=DEST  Point d'arrivé pour trouver le plus court chemin entre
+		                0 et nbnoeuds-1 ou une lettre (a = 0, c = 2....)
+
+
+
+#Le programme produit un resultat sur le terminal et un fichier image montrant le plus court chemin
+

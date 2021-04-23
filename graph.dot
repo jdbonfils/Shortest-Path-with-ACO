@@ -1,0 +1,22 @@
+strict graph  { 
+ A -- B [penwidth = 2.5, color=red,label=2,weight=2]; 
+ A -- C [penwidth = 2,color=blue,label=8,weight=8]; 
+ A -- D [penwidth = 2,color=blue,label=12,weight=12]; 
+ A -- E [penwidth = 2,color=blue,label=7,weight=7]; 
+ B -- A [penwidth = 2.5, color=red,label=2,weight=2]; 
+ B -- C [penwidth = 2,color=blue,label=7,weight=7]; 
+ B -- D [penwidth = 2,color=blue,label=8,weight=8]; 
+ B -- E [penwidth = 2.5, color=red,label=3,weight=3]; 
+ C -- A [penwidth = 2,color=blue,label=8,weight=8]; 
+ C -- B [penwidth = 2,color=blue,label=7,weight=7]; 
+ C -- D [penwidth = 2,color=blue,label=2,weight=2]; 
+ C -- E [penwidth = 2.5, color=red,label=1,weight=1]; 
+ D -- A [penwidth = 2,color=blue,label=12,weight=12]; 
+ D -- B [penwidth = 2,color=blue,label=8,weight=8]; 
+ D -- C [penwidth = 2,color=blue,label=2,weight=2]; 
+ D -- E [penwidth = 2,color=blue,label=4,weight=4]; 
+ E -- A [penwidth = 2,color=blue,label=7,weight=7]; 
+ E -- B [penwidth = 2.5, color=red,label=3,weight=3]; 
+ E -- C [penwidth = 2.5, color=red,label=1,weight=1]; 
+ E -- D [penwidth = 2,color=blue,label=4,weight=4]; 
+ }
